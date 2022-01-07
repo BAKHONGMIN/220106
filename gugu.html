@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for 문과 함수 다루기</title>
+    <script src="./gugu.js"></script>
+</head>
+<body>
+
+
+    <div id="btn">
+        <h1>숫자만 입력하세요!</h1>
+        <input type="text" id="guguNum" onkeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+        <BUtton id="trigger">클릭</BUtton>
+    </div>
+    <ul id="gugu">
+    </ul>
+    <ul id="fail">
+    </ul>
+</body>
+</html>

@@ -18,13 +18,12 @@ var sum = 0;
 var inmyScore = '';
 window.onload = function(){
     for(let i=0 ; i<score.length; i++){
-        inmyScore += `<p>${score[i][0]} ${score[i][1]}</p>`};
-    for(let a=0 ; a<score.length; a++){
+        inmyScore += `<p>${score[i][0]} ${score[i][1]}</p>`;
         sum += score[a][1]};
         fun(`main`, inmyScore);
         fun(`add`, `합계 ${sum}`)};
 
-
+ 
 
 
 
